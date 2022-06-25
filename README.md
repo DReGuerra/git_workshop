@@ -37,4 +37,4 @@ This is a sample python script to be modified, staged, committed, and pushed to 
 2. Development branch \
     The `dev` branch is our working branch. It contains our latest version of the files in our repository. Users can make their user specific branches (`user_name`) from `dev`.
 3. User-specific branch \
-    The `user_name` branch is your own personal branch. In this branch you can make all the modifications you desire to practice the git version control commands and workflow. 
+    The `user_name` branch is your own personal branch. In this branch you can make all the modifications you desire to practice the git version control commands and workflow. Note, however, that this branch level doesn't have to be named your name. This is just for the purposes of our workshop. Often, this level of branch will have a name of the task that you are trying to accomplish with your edits to the files. For example: `concentration_analysis`, `review_plt_format`, etc.

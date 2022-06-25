@@ -132,7 +132,7 @@ fetch $\rightarrow$ pull $\rightarrow$ make changes to files $\rightarrow$ stage
 
 ## Walk-through Exercise
 ### One iteration of the workflow
-The goal of this section is to walk you through one iteration of the workflow to give you a better idea of the order of operations, the returns you see from git, and how to progress all the way to pushing a commit to the remote.
+The goal of this section is to walk you through one iteration (from `fetch` to `push`) of the workflow to give you a better idea of the order of operations, the returns you see from git, and how to progress all the way to pushing a commit to the remote.
 
 `>> git fetch`
 
@@ -187,8 +187,17 @@ Your branch is ahead of 'origin/main' by 1 commit.
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
-`>> git push`
+`>> git push` \
+Git gives us some information on how we have changed the remote. The last section shows the progression between the last commit `09301a4` to the new commit `c3a378b`, and which branches were involved (here just the `main` branch).
 ```
-
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.10 KiB | 1.10 MiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To github.com:DReGuerra/git_workshop.git
+   09301a4..c3a378b  main -> main
 ```
 
