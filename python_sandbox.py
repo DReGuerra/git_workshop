@@ -9,12 +9,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from repos.lammps_library.lammpslib.bootstrapping.bootstrap import NROWS
-
 # ==============================================================
 # data initialization
 temp = np.arange(0,100) + 273.15 # K
-conc = np.logspace(1,0) # mol fraction
+conc = np.logspace(1,0,100)/10 # mol fraction
+# generate normal dist'd noise
+noise = np.random.normal(0,0.05,conc.shape) 
+# add noise to the concentration
+conc = conc + noise
 
 # ==============================================================
 # Visualization
