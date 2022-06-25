@@ -24,7 +24,7 @@ Let's start with two key terms that version control revolves around: \
 - <b>remote repository:</b> this is the master repository that is hosted by a cloud service. In our case here, it is hosted by GitHub, but there are other services that can offer similar capabilities (e.g., Atlassian's Bitbucket). The remote repository arquives all versions of the collection of files that are being tracked (part of the repository). The remote repository is often just referred to as "remote" and that's how we'll be referring to it from now on. The remote is the place where we "pull" from and "push" to.
 - <b>local repository:</b> in order to work on files in a repository and to maintain version control, the first thing we do is "clone" the remote repository locally. In the previous step (Prep) above, you accessed the remote repository of this workshop and you cloned yourself a copy of it locally. This made you a local copy of the remote. This is referred to as the "local".
 
-OK, now let's define some of the more specific technical terms (these are also git commands) that version control uses: \
+OK, now let's define some of the more specific technical terms (these are also git commands) that version control uses:
 - <b>fetch:</b> query the remote for latest version of the repository.
 - <b>pull:</b> "pulls from remote" - gets the latest verison from the remote to the local.
 - <b>stage:</b> Before committing a file, it must be added to the Staging Environment using the command `add` 
