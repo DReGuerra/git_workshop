@@ -48,8 +48,8 @@ fetch $\rightarrow$ pull $\rightarrow$ make changes to files $\rightarrow$ stage
     Once enough changes have been made that you are satisfied that the files are now in a state in which their version should be snapshot, then we need to commit thse changes. BUT before commiting anything, we need to `stage` the changes. We can stage multiple files at once (if we want to commit them to the same commit number):  
     `>> git add python_script.py 4_figures/plot.png markdown_file.md`  
 
-5. <b>commit changes:</b> 
+5. <b>commit changes:</b> \
     Once our changed files have been staged, we can commit them. In every commit, we want to add a message that is descriptive of the changes that were made and/or the reasons for them. Commit messages tend to follow conventions that may be set by you if this is your own repository, or your project leader if the repository that you are working on is managed by someone else (or a company). We can make multiple commits as we work on the files. How often, how many files at a time, and other convention type questions are dependent on how you (or your group) want to manage the repository. It is advisable to stablish a convention if you don't have one yet, and then stick to it. Make your changing and commiting of files a structured process. This will lead to better results for your version history.  
 
-6. <b>push:</b> 
+6. <b>push:</b>  
     Once the desired number of commits have been made, you are ready to update the remote. So, we `push` our changes.
