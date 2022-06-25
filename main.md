@@ -139,10 +139,26 @@ The goal of this section is to walk you through one iteration of the workflow to
 `>> git pull`
 
 `>> git status`
+```
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+```
 
 `>> echo "# This is an empty Markdown file" > my_markdown.md`
 
 `>> git status`
+```
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        my_markdown.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
 
 `>> git add my_markdown.md`
 
