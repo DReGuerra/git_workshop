@@ -3,10 +3,9 @@
 # June, 2022
 # andre.guerra@mail.mcgill.ca
 
-# This is a python script 
-# You can make modifications and practice making commits and pushing to the reporsitory
+# This is a sample python script 
+# You can add files (of any language) and practice making commits and pushing to the repository
 
-from matplotlib import markers
 import numpy as np
 import scipy.optimize as opt
 import matplotlib.pyplot as plt
