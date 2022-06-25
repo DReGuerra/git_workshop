@@ -20,7 +20,7 @@ If you would like to contribute to the core body of the workshop, please contact
 **This is a temporary measure. We will soon handle this by introducing branches to this repository.
 
 ---
-## Contents
+## Core Contents
 1. `main.md` $\rightarrow$ a markdown file containing the main body of this workshop
 2. Directory structure and purpose \
 `1_data/` $\rightarrow$ raw data files (.csv mostly) \
@@ -29,7 +29,6 @@ If you would like to contribute to the core body of the workshop, please contact
 `4_figures/` $\rightarrow$ figures produced by the script (.png, .eps, etc.)
 3. python_sandbox.py \
 This is a sample python script to be modified, staged, committed, and pushed to repository
-4. 
 
 ## Banches
 1. Main branch \
