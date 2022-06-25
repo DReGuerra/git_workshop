@@ -148,7 +148,8 @@ nothing to commit, working tree clean
 
 `>> echo "# This is an empty Markdown file" > my_markdown.md`
 
-`>> git status`
+`>> git status` \
+The return from git tells us what branch we are on, and whether we are up to date with the origin (the remote repository), it also gives us a list of all untracked files. Our new file is not yet being tracked. We need to add it to the Staging Environment, and then commit it.
 ```
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -159,10 +160,35 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
-
 `>> git add my_markdown.md`
-
-`>> git commit -m "i created a new markdown file to practice committing and pushing"`
-
 `>> git status`
+```
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   my_markdown.md
+```
+`>> git commit -m "i created a new markdown file to practice committing and pushing"` \
+Git informs us with the changes that have been made in this commit by returning:
+```
+[main f0431d9] i created a new markdown file to practice committing and pushing
+ 1 file changed, 1 insertion(+)
+ create mode 100644 my_markdown.md
+```
+ 
+`>> git status` \
+Git now tells us we are ahead of the origin (the remote) by 1 commit (the commit we just made). Now we need to update the remote by pushing our local committed changes.
+```
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+`>> git push`
+```
+
+```
 
