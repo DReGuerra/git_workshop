@@ -1,7 +1,11 @@
+
+# Andre Guerra
+# June, 2022
+# andre.guerra@mail.mcgill.ca
+
 # This is a python script 
 # You can make modifications and practice making commits and pushing to the reporsitory
 
-from tempfile import tempdir
 import numpy as np
 import matplotlib.pyplot as plt
 
