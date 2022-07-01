@@ -17,10 +17,10 @@ This is a markdown file (.md). Here, we will discuss some of the features of git
 In order for us to go throug this workshop, you will need to make yourself a GitHub account. Once that's done, you can access my GitHub account at [DReGuerra](https://github.com/DReGuerra). There, you will need to navigate to the main page of this repository at [git_workshop](https://github.com/DReGuerra/git_workshop). Click on `Code` and select the tab `SSH`. Copy the link in the box that appears. You will need this link to "clone" this repository locally on your computer. In your local computer, create a directory to hold all your repositories that you may be working on; you might call it `repos/`. In the terminal, navigate to that directory, and run the following command: \
 `>> git clone git@github.com:DReGuerra/git_workshop.git`
 
-You now have a local copy of the remote repository `git_workshop`, which you can .
+The clone command will copy the entire contents of the remote repository (on GitHub) into a local folder called `git_workshop`. So, if you performed the clone command in the directory `repos/`, you you now have a local copy of the remote repository `git_workshop`, in the location `~/repos/git_workshop/`. You can make modifications to the files and practice git version control.
 
 ## Fundamentals of git Version Control
-Let's start with two key terms that version control revolves around: \ 
+Let's start with two key terms that version control revolves around: 
 - <b>remote repository:</b> this is the master repository that is hosted by a cloud service. In our case here, it is hosted by GitHub, but there are other services that can offer similar capabilities (e.g., Atlassian's Bitbucket). The remote repository arquives all versions of the collection of files that are being tracked (part of the repository). The remote repository is often just referred to as "remote" and that's how we'll be referring to it from now on. The remote is the place where we "pull" from and "push" to.
 - <b>local repository:</b> in order to work on files in a repository and to maintain version control, the first thing we do is "clone" the remote repository locally. In the previous step (Prep) above, you accessed the remote repository of this workshop and you cloned yourself a copy of it locally. This made you a local copy of the remote. This is referred to as the "local".
 
