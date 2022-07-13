@@ -1,4 +1,4 @@
-# git_workshop
+# Git Version Control Workshop
 André Guerra \
 June, 2022 \
 andre.guerra@mail.mcgill.ca  
