@@ -30,7 +30,7 @@ If you would like to contribute to the core body of the workshop, please contact
 3. python_sandbox.py \
 This is a sample python script to be modified, staged, committed, and pushed to repository
 
-## Banches
+## Branches
 1. Main branch \
     The `main` branch contains the long term version of all our files. We will merge to this branch only to update versions of the workshop itself. So, a `dev` $\rightarrow$ `main` merge, should only be done by myself or an official contributor to the repository. 
 2. Development branch \
